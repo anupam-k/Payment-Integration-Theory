@@ -31,3 +31,20 @@
 
 ### _UPI_
 - **_Unified Payments Interface:_** It is totally a different thing
+
+## _Brain Tree Workflow_
+![bt](https://user-images.githubusercontent.com/91872149/212537292-14f151c7-7582-4d08-b0b1-7db20ae341a5.png)
+
+## _Steps_
+
+**_Step 1:_** Your front-end requests a client token from your server and initializes the client SDK.
+
+**_Step 2:_** Your server generates and sends a client token back to your client using the server SDK.
+
+**_Step 3:_** The customer submits payment information, the client SDK communicates that information to Braintree and returns a payment method nonce.
+
+**_Step 4:_** Your front-end sends the payment method nonce to your server.
+
+**_Step 5:_** Your server code receives the payment method nonce and then uses the server SDK to create a transaction.
+
+**_Nonce:_** It is a Unique Token

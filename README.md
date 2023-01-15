@@ -1,4 +1,5 @@
 # _Payment Integration_
+![maxresdefault](https://user-images.githubusercontent.com/91872149/212538615-db61efd6-02d0-49f6-8f42-c291465ce6aa.jpg)
 
 ## _Payment Gateway Integration_
 - **_Stripe_**
@@ -71,3 +72,16 @@ _**Only Two Controllers are needed:**_
 - Generate a Token
 - Pass the nonce, make a braintree request, send it to frontend
 
+
+## _Razorpay Flow_
+![payment-flow-payment-flow](https://user-images.githubusercontent.com/91872149/212538756-5791f476-d9c6-4daf-b418-cef828373335.jpg)
+
+## _Steps_
+**_Step 1:_** Customers place an order on your website or app<br>
+**_Step 2:_** You create an order from your server<br>
+**_Step 3:_** Pass Order ID to checkout and collect payment details<br>
+**_Step 4:_** Bank authenticates the payment<br>
+**_Step 5:_** Capture the payment<br>
+**_Step 6:_** Razorpay settles the amount<br>
+
+![web-integration-checkout-new](https://user-images.githubusercontent.com/91872149/212538867-07375650-5861-4046-a6fc-2d67fdf50899.jpg)

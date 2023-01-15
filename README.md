@@ -1,15 +1,15 @@
 # _Payment Integration_
 
 ## _Payment Gateway Integration_
-- Stripe
-- Paypal
-- Razorpay
-- PayTm
-- Buildesk
+- **_Stripe_**
+- **_Paypal_**
+- **_Razorpay_**
+- **_PayTm_**
+- **_Buildesk_**
 
 ### _Difference Payment Aggregator and Payment Gateway_
 
-Razorpay - Payment Gateway
+**_Razorpay_** - Payment Gateway
 
 ## _Payment Aggregator:_ 
 - Most of the things that you see around are **_Payment Aggregators_**

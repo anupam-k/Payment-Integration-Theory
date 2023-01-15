@@ -48,3 +48,26 @@
 **_Step 5:_** Your server code receives the payment method nonce and then uses the server SDK to create a transaction.
 
 **_Nonce:_** It is a Unique Token
+
+## _Client:_ Web Browser, Mobile App
+
+Step 1: As soon as the client request, 
+        Request the sever to Generate a token
+
+Step 2: As soon as the client response back,
+        you need to store that token
+
+Step 3: Client request with the token and verifies
+        the braintree. Once the braintree receives this, it will
+        reply with nonce
+
+Step 4: Your front-end sends the payment method nonce to your server
+
+Step 5: Your server code receives the payment method nonce and then uses the server SDK to create a transaction.
+
+## _With perspective of Backend Developer_
+
+_**Only Two Controllers are needed:**_
+- Generate a Token
+- Pass the nonce, make a braintree request, send it to frontend
+
